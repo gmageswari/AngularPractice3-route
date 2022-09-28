@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="Dashboard/dashboard.css" />
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="Heroes/heroes.css" />
+    <link rel="stylesheet" href="HeroesDetails/heroesDetails.css" />
 </head>
 <body>
-    <div ng-app="myRoutingApp" ng-controller="mainController">
+    <div ng-app="myRoutingApp" ng-controller="mainController" class="page1">
         <h1>Tour of heroes</h1>
-        <button class="tab-btn" ng-click="goToPage('/dashboard')">Dashboard</button>
-        <button class="tab-btn" ng-click="goToPage('/heroes')">Heroes</button>
+        <div class="buttondiv">
+            <button class="tab-btn" ng-click="goToPage('/dashboard')">Dashboard</button>
+            <button class="tab-btn" ng-click="goToPage('/heroes')">Heroes</button>
+        </div>
         <div ng-view></div>
     </div>
     <script src="https://code.angularjs.org/snapshot/angular.min.js"></script>
