@@ -1,0 +1,19 @@
+.eachHeroContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.name{
+    text-align: center;
+    width: 150px;
+    background-color: white;
+    color: black;
+    align-self: center;
+}

@@ -1,0 +1,20 @@
+.topheroes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 440px;
+    border: none;;
+    border-radius: 5px;
+    color: white;
+}
+.eachTopHero{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
