@@ -2,35 +2,35 @@ angular.module("myRoutingApp").controller("mainController", ['$location', '$root
     $rootScope.heroes = [
         {
             id: 1,
-            name: "A"
+            name: "Sk"
         },
         {
             id: 2,
-            name: "B"
+            name: "Dhanush"
         },
         {
             id: 3,
-            name: "C"
+            name: "Vijay"
         },
         {
             id: 4,
-            name: "D"
+            name: "Ajith"
         },
         {
             id: 5,
-            name: "E"
+            name: "Adharvaa"
         },
         {
             id: 6,
-            name: "F"
+            name: "RajiniKanth"
         },
         {
             id: 7,
-            name: "G"
+            name: "KamalHasan"
         },
         {
             id: 8,
-            name: "H"
+            name: "Dulquer"
         }
     ];
     $rootScope.goToPage = function (link) {

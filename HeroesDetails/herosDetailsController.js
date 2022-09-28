@@ -11,8 +11,8 @@ angular.module("myRoutingApp").controller("heroesDetailsController",['$scope','$
                 return {
                     id : $scope.id,
                     name : $scope.inName
-                }
-            }
+                };
+            };
         });
         $rootScope.heroes = $scope.dummyArray;
     };
